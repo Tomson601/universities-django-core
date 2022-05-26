@@ -12,4 +12,11 @@ class UniversitySerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.University
-        fields = ("identifier", "code", "country", "state_province", "domains", "name", "web_pages")
+        fields = ["id", "code", "country", "state_province", "domains", "name", "web_pages"]
+
+class CountrySerializer(serializers.ModelSerializer):
+    country_name = serializers.ReadOnlyField()
+
+    class Meta:
+        model = models.University
+        fields = ["id", "country_name"]

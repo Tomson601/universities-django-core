@@ -4,7 +4,8 @@ from . import views
 
 
 router = routers.DefaultRouter()
-router.register(r"university", views.UniversityViewSet, basename="university")
+router.register(r"universities", views.UniversityViewSet, basename="universities")
+router.register(r"country", views.CountryViewSet, basename="country")
 
 urlpatterns = [
     re_path(r"^", include(router.urls)),
