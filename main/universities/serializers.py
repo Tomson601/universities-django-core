@@ -19,5 +19,5 @@ class CountrySerializer(serializers.ModelSerializer):
     country_name = serializers.CharField()
 
     class Meta:
-        model = models.University
+        model = models.Country
         fields = ["id", "country_name"]

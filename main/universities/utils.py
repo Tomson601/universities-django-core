@@ -14,7 +14,7 @@ def get_universities_json():
         university = models.University.objects.create(
             code = str(school["alpha_two_code"]),
             country = models.Country.objects.get(country_name="Poland"),
-            #state_province = school["state-province"],
+            state_province = school["state-province"],
             domains = str(school["domains"]),
             name = str(school["name"]),
             web_pages = str(school["web_pages"])
