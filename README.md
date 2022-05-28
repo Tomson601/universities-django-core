@@ -10,6 +10,9 @@
 
 4.Download required packs: ```pip install -r requirements.txt```
 
+### Heroku commands:
+1. python main/manage.py migrate
+2. python main/manage.py shell
 
 ### Ideas:
 
