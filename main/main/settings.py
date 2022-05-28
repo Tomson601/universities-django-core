@@ -1,3 +1,4 @@
+import django_heroku
 from pathlib import Path
 import os
 
@@ -121,3 +122,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 if 'DATABASE_URL' in os.environ:
     import dj_database_url
     DATABASES = {'default': dj_database_url.config()}
+
+django_heroku.settings(locals())
