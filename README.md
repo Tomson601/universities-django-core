@@ -16,7 +16,7 @@
 
 ### Ideas:
 
-**1. Get data about high schools**
+**1. Get data about high schools** ✅
 -scrap data from html or download to txt file ✅
 
 **2. Add sorting methods, sort by:**
@@ -26,4 +26,7 @@
 
 **3. Add minimalist GUI (just html + css)**
 
-**4. Host website**
+**4. Host website** ✅
+
+**5. Add searchbar** 
+
