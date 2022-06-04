@@ -33,4 +33,9 @@ def get_countries():
             country.save()
     return "SUCCESS"
 
+def update_database():
+    get_countries()
+    get_universities_json()
+    return "SUCCESS"
+
 # TODO: Fix Republic of Congo model

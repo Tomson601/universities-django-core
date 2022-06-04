@@ -14,6 +14,10 @@
 1. python main/manage.py migrate
 2. python main/manage.py shell
 
+### Popular errors:
+1. ERROR: Failed building wheel for psycopg2
+```apt-get install python3-dev```
+
 ### Ideas:
 
 **1. Get data about high schools** ✅
@@ -30,3 +34,4 @@
 
 **5. Add searchbar** 
 
+**6. Add university preview**
