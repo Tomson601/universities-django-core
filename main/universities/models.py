@@ -14,3 +14,6 @@ class University(models.Model):
     domains = models.CharField(max_length=300)
     name = models.CharField(max_length=300)
     web_pages = models.CharField(max_length=300)
+    def __str__(self):
+        return self.name
+        return self.str(country)
