@@ -32,6 +32,6 @@
 
 **4. Host website** ✅
 
-**5. Add searchbar** 
+**5. Add searchbar** ✅
 
 **6. Add university preview**
