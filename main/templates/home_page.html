@@ -1,5 +1,16 @@
-<h1>HOME PAGE</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Universities Search</title>
+    <link rel="stylesheet" href="home_page_style.css">
+</head>
+<body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
 
-<form action="{% url 'search_results' %}" method="get">
-    <input name="q" type="text" placeholder="Search:">
-</form>
+    <form action="{% url 'search_results' %}" method="get">
+        <input name="q" type="text" placeholder="Press ENTER to serach">
+    </form>
+
+</body>
+</html>

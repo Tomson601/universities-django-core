@@ -1,9 +1,0 @@
-<h1>Search Results</h1>
-
-<ul>
-  {% for university in object_list %}
-    <li>
-      {{ university.code }}, {{ university.country.country_name }}, {{ university.name }}
-    </li>
-  {% endfor %}
-</ul>

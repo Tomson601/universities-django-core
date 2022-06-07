@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="search_style.css">
+  <title>Search Resoults</title>
+</head>
+<body>
+
+  <ul>
+    {% for university in object_list %}
+      <li>
+        {{ university.code }}, {{ university.country.country_name }}, {{ university.name }}
+      </li>
+    {% endfor %}
+  </ul>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
