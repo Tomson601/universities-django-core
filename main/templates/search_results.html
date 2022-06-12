@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="search_style.css">
+  <title>Search Resoults</title>
+</head>
+<body>
+
+  <ul>
+    {% for university in object_list %}
+      <li>
+        {{ university.code }}, {{ university.country.country_name }}, {{ university.name }}, {{ university.web_pages }}
+
+      </li>
+    {% endfor %}
+  </ul>
+<h1>END OF RESOULTS</h1>
+</body>
+</html>

@@ -5,7 +5,9 @@ class Country(models.Model):
     country_name = models.CharField(max_length=150, null=False)
 
     def __str__(self):
-        return self.country_name
+        return {
+            self.country_name
+            }
 
 class University(models.Model):
     code = models.CharField(max_length=25)
@@ -14,6 +16,9 @@ class University(models.Model):
     domains = models.CharField(max_length=300)
     name = models.CharField(max_length=300)
     web_pages = models.CharField(max_length=300)
+
     def __str__(self):
-        return self.name
-        return self.str(country)
+        return {
+            self.name,
+            self.country.name
+        }

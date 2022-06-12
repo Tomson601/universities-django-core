@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Universities Search</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'home_page_style.css' %}">
+</head>
+
+<body>
+    <h1>API root- Universities search</h1>
+    <p>Please input country code to search for university, e.g.: PL, GB, FR, DE</p>
+
+    <form action="{% url 'search_results' %}" method="get">
+        <input name="q" type="text" placeholder="Press ENTER to search">
+    </form>
+</body>
+
+<div class="shadowbox">
+    <p>This website is made by Tomasz Jarko. Main goal is to make reliable search engine that will help with searching thru all kinds of universities</p>
+</div>
+
+</html>

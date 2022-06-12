@@ -15,8 +15,13 @@
 2. python main/manage.py shell
 
 ### Popular errors:
-1. ERROR: Failed building wheel for psycopg2
-```apt-get install python3-dev```
+ERROR: Failed building wheel for psycopg2:
+1. apt-get install python3-dev
+2. sudo apt-get install python3 python-dev python3-dev \
+    build-essential libssl-dev libffi-dev \
+    libxml2-dev libxslt1-dev zlib1g-dev \
+    python-pip
+https://github.com/scrapy/scrapy/issues/2115#issuecomment-231849637
 
 ### Ideas:
 
@@ -32,6 +37,6 @@
 
 **4. Host website** ✅
 
-**5. Add searchbar** 
+**5. Add searchbar** ✅
 
 **6. Add university preview**
