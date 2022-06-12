@@ -33,6 +33,6 @@ class SearchResultsView(ListView):
     def get_queryset(self): # new
         query = self.request.GET.get("q")
         object_list = models.University.objects.filter(
-            Q(name__icontains=query)
+            Q(code=query)
         )
         return object_list

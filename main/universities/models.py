@@ -20,5 +20,5 @@ class University(models.Model):
     def __str__(self):
         return {
             self.name,
-            self.country
+            self.country.name
         }
