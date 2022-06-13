@@ -11,8 +11,8 @@
 4.Download required packs: ```pip install -r requirements.txt```
 
 ### Heroku commands:
-1. python main/manage.py migrate
-2. python main/manage.py shell
+1.python main/manage.py migrate  
+2.python main/manage.py shell  
 
 ### Popular errors:
 ERROR: Failed building wheel for psycopg2:
@@ -25,7 +25,7 @@ https://github.com/scrapy/scrapy/issues/2115#issuecomment-231849637
 
 ### Ideas:
 
-**1. Get data about high schools** ✅
+**1. Get data about high schools**  ✅
 -scrap data from html or download to txt file ✅
 
 **2. Add sorting methods, sort by:**
@@ -33,10 +33,7 @@ https://github.com/scrapy/scrapy/issues/2115#issuecomment-231849637
 -technical schools, 
 -specialization
 
-**3. Add minimalist GUI (just html + css)**
-
-**4. Host website** ✅
-
-**5. Add searchbar** ✅
-
-**6. Add university preview**
+**3. Add minimalist GUI (just html + css)**  ✅
+**4. Host website**  ✅
+**5. Add searchbar**  ✅
+**6. Add university preview**  

@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Universities</h2>
+        <ul>
+            {% for university in object_list %}
+              <li>
+                {{ university.code }}, {{ university.country.country_name }}, {{ university.name }}, {{ university.web_pages }}
+              </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
