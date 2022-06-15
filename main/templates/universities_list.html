@@ -1,14 +1,19 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-    <body>
-        <h2>Universities</h2>
-        <ul>
-            {% for university in object_list %}
-              <li>
-                {{ university.code }}, {{ university.country.country_name }}, {{ university.name }}, {{ university.web_pages }}
-              </li>
-            {% endfor %}
-        </ul>
-    </body>
+
+<body>
+  <h2>Universities:</h2>
+  <u>
+    {% block content %}
+
+    {% for university in my_data %}
+    <li>
+      {{ university.code }}, {{ university.country.country_name }}, {{ university.name }}, {{ university.web_pages }}
+    </li>
+    {% endfor %}
+    {% endblock content %}
+  </u>
+</body>
+
 </html>
