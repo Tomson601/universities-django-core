@@ -20,20 +20,20 @@ ERROR: Failed building wheel for psycopg2:
 2. sudo apt-get install python3 python-dev python3-dev \
     build-essential libssl-dev libffi-dev \
     libxml2-dev libxslt1-dev zlib1g-dev \
-    python-pip
+    python-pip  
 https://github.com/scrapy/scrapy/issues/2115#issuecomment-231849637
 
-### Ideas:
+### Ideas:  
 
-**1. Get data about high schools**  ✅
--scrap data from html or download to txt file ✅
+**1. Get data about high schools**✅  
+-scrap data from html or download to txt file✅  
 
-**2. Add sorting methods, sort by:**
+**2. Add sorting methods, sort by:**  
 -country, 
 -technical schools, 
--specialization
+-specialization  
 
-**3. Add minimalist GUI (just html + css)**  ✅
-**4. Host website**  ✅
-**5. Add searchbar**  ✅
+**3. Add minimalist GUI (just html + css)**✅  
+**4. Host website**✅  
+**5. Add searchbar**✅  
 **6. Add university preview**  
