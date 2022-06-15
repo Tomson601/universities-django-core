@@ -17,12 +17,12 @@
     {% for university in object_list %}
       <li>
         {{ university.code }}, {{ university.country.country_name }}, {{ university.name }}, {{ university.web_pages }}
-
       </li>
     {% endfor %}
   </ul>
 <h1>END OF RESOULTS</h1>
 <div class="button">
   <button type="submit"onclick="location.href='{% url 'home' %}'" >Back to main page</button>
-</div></body>
+</div>
+</body>
 </html>

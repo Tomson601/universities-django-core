@@ -3,6 +3,17 @@ from rest_framework.viewsets import ModelViewSet
 from django.views.generic import TemplateView, ListView
 from universities import models
 from django.db.models import Q
+from django.shortcuts import render
+
+
+def get_data(request):
+    
+    my_data = models.University.objects.all()
+    
+    context={
+      'my_data':my_data,
+    } 
+    return render(request, 'universities_list.html', context)
 
 
 class UniversityViewSet(ModelViewSet):
@@ -23,6 +34,10 @@ class CountryViewSet(ModelViewSet):
 
 class HomePageView(TemplateView):
     template_name = 'home_page.html'
+
+
+class UniversityView(TemplateView):
+    template_name = 'universities_list.html'
 
 
 class SearchResultsView(ListView):
