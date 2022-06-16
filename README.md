@@ -21,7 +21,8 @@ ERROR: Failed building wheel for psycopg2:
     build-essential libssl-dev libffi-dev \
     libxml2-dev libxslt1-dev zlib1g-dev \
     python-pip  
-https://github.com/scrapy/scrapy/issues/2115#issuecomment-231849637
+https://github.com/scrapy/scrapy/issues/2115#issuecomment-231849637  
+3. sudo apt-get install libpcap-dev libpq-dev
 
 ### Ideas:  
 
@@ -29,11 +30,11 @@ https://github.com/scrapy/scrapy/issues/2115#issuecomment-231849637
 -scrap data from html or download to txt file✅  
 
 **2. Add sorting methods, sort by:**  
--country, 
--technical schools, 
--specialization  
+    -country  
+    -technical schools  
+    -specialization   
 
-**3. Add minimalist GUI (just html + css)**✅  
+**3. Add minimalist GUI**✅  
 **4. Host website**✅  
 **5. Add searchbar**✅  
 **6. Add university preview**  
